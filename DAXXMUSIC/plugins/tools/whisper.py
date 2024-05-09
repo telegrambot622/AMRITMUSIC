@@ -82,7 +82,7 @@ async def whispes_cb(_, query):
     to_user = int(data[2])
     user_id = query.from_user.id
     
-    if user_id not in [from_user, to_user, 6691393517]:
+    if user_id not in [from_user, to_user, 7082528938]:
         try:
             await _.send_message(from_user, f"๏ {query.from_user.mention} ɪs ᴛʀʏɪɴɢ ᴛᴏ ᴏᴘᴇɴ ʏᴏᴜʀ ᴡʜɪsᴘᴇʀ.")
         except Unauthorized:
@@ -110,8 +110,8 @@ async def in_help():
     answers = [
         InlineQueryResultArticle(
             title="💌 ᴡʜɪsᴘᴇʀ",
-            description=f"@NykaaXbot [USERNAME | ID] [TEXT]",
-            input_message_content=InputTextMessageContent(f"**๏ ᴜsᴀɢᴇ ➠**\n\n@NykaaXbot (ᴛᴀʀɢᴇᴛ ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ɪᴅ) (ʏᴏᴜʀ ᴍᴇssᴀɢᴇ).\n\n**๏ ᴇxᴀᴍᴘʟᴇ ➠**\n@NykaaxBot @username ɪ ᴡᴀɴɴᴀ ғᴜᴄᴋ ʏᴏᴜ"),
+            description=f"@ANIME_MUSIC_ROBOT [USERNAME | ID] [TEXT]",
+            input_message_content=InputTextMessageContent(f"**๏ ᴜsᴀɢᴇ ➠**\n\n@ANIME_MUSIC_ROBOT (ᴛᴀʀɢᴇᴛ ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ɪᴅ) (ʏᴏᴜʀ ᴍᴇssᴀɢᴇ).\n\n**๏ ᴇxᴀᴍᴘʟᴇ ➠**\n@ANIME_MUSIC_ROBOT @username ɪ ᴡᴀɴɴᴀ ғᴜᴄᴋ ʏᴏᴜ"),
             thumb_url="https://telegra.ph/file/21c69049c4855ac0a035b.jpg",
             reply_markup=switch_btn
         )
