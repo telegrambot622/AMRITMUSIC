@@ -6,7 +6,7 @@ import requests
 
 EVAA = [
     [
-        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/nykaaxbot?startgroup=true"),
+        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/anime_music_robot?startgroup=true"),
     ],
 ]
 
@@ -23,7 +23,7 @@ async def handwrite(_, message: Message):
 ✦ sᴜᴄᴇssғᴜʟʟʏ ᴡʀɪᴛᴛᴇɴ ᴛᴇxᴛ ✦
 
 ๏ ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ ➠ {message.from_user.mention}
-๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ [๛ɴ ʏ ᴋ ᴀ ᴀ࿐](https://t.me/nykaaxbot)
+๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➠ [๛˹ɑᴍʀɪᴛ яᴀᴊ˼࿐](https://t.me/ANIME_MUSIC_ROBOT)
 """
     await m.delete()
     await message.reply_photo(photo=write,caption=caption, reply_markup=InlineKeyboardMarkup(EVAA),)
