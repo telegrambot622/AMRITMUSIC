@@ -1,5 +1,5 @@
 
- <img src="https://readme-typing-svg.herokuapp.com?color=FF0000&width=420&lines=🧋+ⓃⓎⓀⒶⒶ+ⓂⓊⓈⒾⒸ+ⒷⓄⓉ+🧋">
+ <img src="https://readme-typing-svg.herokuapp.com?color=FF0000&width=420&lines=🧋+ANIME+ⓂⓊⓈⒾⒸ+ⒷⓄⓉ+🧋">
 
 
 
@@ -9,6 +9,6 @@
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
 </h3>
 
-<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/LOCO-PILOT/ROYMUSIC"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-00FFFF?style=for-the-badge&logo=heroku" width="220" height="60"/></a></p>
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/telegrambot622/AMRITMUSIC"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-00FFFF?style=for-the-badge&logo=heroku" width="220" height="60"/></a></p>
 
 
